@@ -2,12 +2,14 @@
 This repository documents my progress learning Python programming fundamentals for engineering, robotics, and AI applications. 
 
 ## Topics Covered
+- String types
+- Arithmetic Sequences
 
 ## Goals 
 - Build strong programming fundamentals
 - Develop computational thinking skills
 - Prepare for robotics, AI, and systems engineering projects
-- Create increasingly advanced projects over tim
+- Create increasingly advanced projects over time
 
 ## Current Projects
 

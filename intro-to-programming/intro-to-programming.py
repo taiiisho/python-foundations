@@ -111,6 +111,9 @@ city = input("city")
 print("Hi", name, ", you are", age, "years old. You live in",
         city, ".")
 
+
+# Arithmetic 
+
 uno = 97
 dos = 99
 tres = 100
@@ -124,3 +127,113 @@ quiz3 = 84
 quiz4 = 105
 mean = (quiz1 + quiz2 + quiz3 + quiz4) / 4 
 print(f"Mean: {mean}")
+
+height = 172.5
+weight = 68.55
+
+bmi = weight / (height / 100) ** 2
+print(f"The BMI is {bmi}")
+
+x = 3
+y = 2
+
+print(f"/ operator {x/y}")
+print(f"// operator {x//y}")
+
+# input strings
+
+input_str = input("Which year were you born? ")
+year = int(input_str)
+print(f"Your age at the end of the year 2028: {2028 - year}")
+
+# Alternative 
+year = int(input("Which year were you born? "))
+print(f"Your age at the end of the year 2028: {2028 - year}")
+
+height = float(input("What is your height? "))
+weight = float(input("What is your weight? "))
+
+height = height / 100 
+bmi = weight / height ** 2 
+
+print(f"The BMI is {bmi}")
+
+# Practice
+
+user_input = int(input("Please enter a number "))
+final_value = user_input * 5 
+print(f"{user_input} * 5 is {final_value}")
+
+user_name = input("What is your name? ")
+user_birth_year = int(input("What year were you born? "))
+age_by_2028 = 2028 - user_birth_year
+print(f"Hi {user_name}, you will be {age_by_2028} years old at the end of the year 2028")
+
+
+# Using Variables 
+
+sum = 0 
+
+number  = int(input("First Number: "))
+sum += number 
+
+number  = int(input("Second Number: "))
+sum += number 
+
+number  = int(input("Third Number: "))
+sum += number 
+
+print(f"The sum of all the numbers: {sum}")
+
+sum = 0 
+sum += int(input("First Number:"))
+sum += int(input("Second Number: "))
+sum += int(input("Third Number: "))
+
+print(f"The sum of the numbers: {sum}")
+
+# Practice
+
+days = int(input("How many days? "))
+seconds_value = days * 86400
+seconds = print(f"There are {seconds_value} seconds in {days} days!")
+
+number_1 = int(input("Please enter a number: "))
+number_2 = int(input("Another one: "))
+sum = number_1 + number_2 
+product = number_1 * number_2 
+print(f"The sum of the numbers is: {sum}")
+print(f"The product of the numbers is: {product}")
+
+value1 = int(input("Enter an integer: "))
+value2 = int(input("Enter an integer: "))
+value3 = int(input("Enter an integer: "))
+value4 = int(input("Enter an integer: "))
+number_value = int(input("Enter number of values inputed: "))
+
+sum = value1 + value2 + value3 + value4
+mean = sum / number_value
+print(f"The sum of the number is {sum} and the mean is {mean}")
+
+
+times_weekly = int(input("How many times a week do you eat at the student cafeteria? "))
+prices = float(input("The price of a typical student lunch? "))
+money_spent = float(input("How much money do you spend on groceries in a week? "))
+
+print("Average food expenditure: ")
+total_spent = prices * times_weekly + money_spent
+weekly = total_spent
+daily = total_spent / 7
+print(f"Daily: {daily} euros")
+print(f"Weekly: {weekly} euros")
+
+
+students_count = int(input("How many students in the course? "))
+desired_group_size = int(input("Group Size? "))
+number_groups_formed = students_count // desired_group_size
+print(f"Number of possible groups: {number_groups_formed}")
+
+
+
+
+
